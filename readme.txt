@@ -101,3 +101,24 @@ npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.3
 npm notice To update run: npm install -g npm@10.8.3
 npm notice
 PS D:\Users\akoka\IdeaProjects\PlaywrightDemoProject>
+-------------------------------------------------------------------------------
+package.json
+"scripts": {
+    "test":"playwright test --headed"
+  },
+
+  PS D:\Users\akoka\IdeaProjects\PlaywrightDemoProject\tests> npm run test
+
+> playwrightdemoproject@1.0.0 test
+> playwright test --headed
+
+
+Running 3 tests using 3 workers
+  3 passed (9.4s)
+
+To open last HTML report run:
+
+  npx playwright show-report
+
+PS D:\Users\akoka\IdeaProjects\PlaywrightDemoProject\tests>
+-------------------------------------------------------------------------------------
