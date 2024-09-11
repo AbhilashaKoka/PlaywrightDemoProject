@@ -11,7 +11,10 @@ import {chromium} from '@playwright/test';
 
     const page =await browserInstance.newPage();
 
-    await page.goto("https://google.com");
+    await page.goto("https://demoqa.com/");
+
+    await page.locator("'.card-up'").click();    
     
     await browser.close();
+    
 })();

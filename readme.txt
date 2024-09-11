@@ -133,3 +133,8 @@ tsc.cmd .\TextBox.spec.ts
 -------------------------------------------------------------------------------------
 npm  install -g ts-node
 -------------------------------------------------------------------------------------
+Open Development Tools in Browser and Navigate to  Console->
+CSSSelector
+$(".card-up")
+Xpath
+$x("//*[@class='card-up']")
